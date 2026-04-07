@@ -1,13 +1,11 @@
 name: CONVENTIONS.md
-description: Project conventions file documenting coding standards, naming conventions,
-  architecture decisions, and development practices. Used by AI coding assistants
-  and human developers alike.
+description: Project conventions file documenting coding standards, naming conventions, architecture decisions, and development practices. Used by AI coding assistants and human developers alike.
 url: ''
 tags:
-- Coding Standards
-- Documentation
-- Developer Workflow
-- Best Practices
+  - Best Practices
+  - Coding Standards
+  - Developer Workflow
+  - Documentation
 created: '2025-01-01'
 modified: '2026-03-16'
 apis: []
