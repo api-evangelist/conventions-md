@@ -11,7 +11,7 @@ description: >-
   practices in plain natural language so both human developers and AI
   assistants share the same expectations. The file is loaded into the model
   context to steer code generation toward project conventions.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - AI Coding
   - Aider
@@ -33,7 +33,7 @@ apis:
       - Convention
       - Markdown
       - Project Configuration
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aider.chat/docs/usage/conventions.html
     properties:
       - url: https://aider.chat/docs/usage/conventions.html
@@ -70,7 +70,7 @@ apis:
       - AI Coding
       - Comparison
       - Conventions
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.anthropic.com/en/docs/claude-code/memory
     properties:
       - url: https://docs.anthropic.com/en/docs/claude-code/memory
