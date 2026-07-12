@@ -101,6 +101,8 @@ apis:
       - Documenting cross-cutting concerns separate from tool-specific config
 
 common:
+  - type: DomainSecurity
+    url: security/conventions-md-domain-security.yml
   - type: Documentation
     url: https://aider.chat/docs/usage/conventions.html
   - type: Documentation
@@ -109,6 +111,8 @@ common:
     url: https://docs.cursor.com/context/rules-for-ai
   - type: Documentation
     url: https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot
+  - url: https://aider.chat/feed.xml
+    type: Blog
 
 maintainers:
   - FN: Kin Lane
