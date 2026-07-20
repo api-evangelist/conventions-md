@@ -2,7 +2,7 @@ aid: conventions-md
 url: >-
   https://raw.githubusercontent.com/api-evangelist/conventions-md/refs/heads/main/apis.yml
 name: CONVENTIONS.md
-kind: standard
+kind: topic
 description: >-
   CONVENTIONS.md is a Markdown convention popularized by AI pair programming
   tools such as aider and adopted by AI coding agents like Cursor, Cline, and
