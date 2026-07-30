@@ -11,7 +11,19 @@ description: >-
   practices in plain natural language so both human developers and AI
   assistants share the same expectations. The file is loaded into the model
   context to steer code generation toward project conventions.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/conventions-md.png
 tags:
   - AI Coding
   - Aider
