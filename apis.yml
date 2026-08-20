@@ -42,6 +42,11 @@ apis:
     name: CONVENTIONS.md Format
     tags:
       - AI Coding
+      - Conventions
+      - Markdown
+      - Project Configuration
+    tags_raw:
+      - AI Coding
       - Convention
       - Markdown
       - Project Configuration
