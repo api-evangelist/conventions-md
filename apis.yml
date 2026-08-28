@@ -11,6 +11,17 @@ description: >-
   practices in plain natural language so both human developers and AI
   assistants share the same expectations. The file is loaded into the model
   context to steer code generation toward project conventions.
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
