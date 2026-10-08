@@ -132,6 +132,12 @@ apis:
       - Documenting cross-cutting concerns separate from tool-specific config
 
 common:
+  - type: Plans
+    url: plans/conventions-md-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/conventions-md-rate-limits.yml
+  - type: FinOps
+    url: finops/conventions-md-finops.yml
   - type: DomainSecurity
     url: security/conventions-md-domain-security.yml
   - type: Documentation
