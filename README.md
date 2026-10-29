@@ -1,4 +1,4 @@
-# CONVENTIONS.md (conventions-md)
+# conventions-md
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,96 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CONVENTIONS.md is a Markdown convention popularized by AI pair programming tools such as aider and adopted by AI coding agents like Cursor, Cline, and Claude Code. It documents project-specific coding standards, library preferences, naming conventions, architecture decisions, and development practices in plain natural language so both human developers and AI assistants share the same expectations. The file is loaded into the model context to steer code generation toward project conventions.
+## conventions-md on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/conventions-md/refs/heads/main/apis.yml)
+Everything profiled for conventions-md is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/conventions-md/](https://apis.io/providers/conventions-md/)** — or go straight to one of the APIs or properties below.
 
-## Type
+## API Evangelist rating
 
-- **x-type:** standard
+Not yet rated. See [apis.io/providers/conventions-md/](https://apis.io/providers/conventions-md/).
 
-## Tags:
+## How this profile is made
 
- - AI Coding, Aider, Best Practices, Coding Standards, Conventions, Developer Workflow, Documentation, Markdown, Project Configuration
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Timestamps
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for conventions-md: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-28
+## Open an issue
 
-## APIs
-
-### CONVENTIONS.md Format
-
-The CONVENTIONS.md format is a free-form Markdown file describing the coding rules an AI coding agent should follow inside a repository. The file is loaded into the chat context, typically in read-only mode, and may be referenced via /read CONVENTIONS.md, the --read CLI flag, or a persistent read entry in .aider.conf.yml. Common content includes preferred libraries, language and version targets, type system rules, lint and format expectations, error handling style, and architectural patterns the project favors.
-
-**Human URL:** [https://aider.chat/docs/usage/conventions.html](https://aider.chat/docs/usage/conventions.html)
-
-#### Tags:
-
- - AI Coding, Convention, Markdown, Project Configuration
-
-#### Properties
-
-- [Documentation](https://aider.chat/docs/usage/conventions.html)
-- [Documentation](https://aider.chat/docs/config/aider_conf.html)
-- [Repository](https://github.com/Aider-AI/aider)
-
-#### Features
-
-- Plain Markdown bullet list of project rules
-- Loaded into AI agent context per session or via config
-- Supports prompt caching when marked read-only
-- Composable alongside CLAUDE.md, .cursor/rules, and copilot-instructions
-- No required schema, allowing each project to define what matters
-
-#### Use Cases
-
-- Steering AI agents toward preferred libraries and frameworks
-- Documenting type hint, naming, and lint requirements
-- Capturing architecture decisions for AI assisted refactors
-- Aligning human and AI contributors on a single source of conventions
-- Reducing rework caused by AI generated code that misses team norms
-
-### AI Coding Conventions Ecosystem
-
-CONVENTIONS.md sits alongside several closely related AI coding conventions. CLAUDE.md is used by Claude Code for repository memory. .cursor/rules and .cursorrules are used by Cursor. .github/copilot-instructions.md is used by GitHub Copilot. Each follows a similar pattern: a Markdown or text file describing repository-specific rules that gets injected into the AI assistant prompt context. CONVENTIONS.md is the most tool-agnostic option and is widely adopted across multiple AI coding agents.
-
-**Human URL:** [https://docs.anthropic.com/en/docs/claude-code/memory](https://docs.anthropic.com/en/docs/claude-code/memory)
-
-#### Tags:
-
- - AI Coding, Comparison, Conventions
-
-#### Properties
-
-- [Documentation](https://docs.anthropic.com/en/docs/claude-code/memory)
-- [Documentation](https://docs.cursor.com/context/rules-for-ai)
-- [Documentation](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot)
-- [Documentation](https://aider.chat/docs/usage/conventions.html)
-
-#### Features
-
-- Tool-agnostic file naming compared to CLAUDE.md or .cursorrules
-- Often committed to repo root for visibility to humans and AI
-- Frequently referenced by other agent files such as CLAUDE.md
-- Composable with .editorconfig, .prettierrc, and lint configurations
-
-#### Use Cases
-
-- Sharing one set of rules across aider, Cursor, Cline, and Claude Code
-- Consolidating coding standards for human and AI contributors
-- Documenting cross-cutting concerns separate from tool-specific config
-
-## Common Properties
-
-- [Documentation](https://aider.chat/docs/usage/conventions.html)
-- [Documentation](https://docs.anthropic.com/en/docs/claude-code/memory)
-- [Documentation](https://docs.cursor.com/context/rules-for-ai)
-- [Documentation](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/conventions-md/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
